@@ -1,3 +1,4 @@
+console.log("Test")
 function full_sentence() { //creating function
     var part_1 = "This is a "; //string
     var part_2= "sentence";  //string
@@ -11,9 +12,9 @@ document.getElementById("slice").innerHTML= section;
 }
 function precision_method() { //creating function
     var X=1234566.667899754346; // value to var X
-document.getElementById("Precision").innerHTML= X.toPrecision(6);
+document.getElementById("precision").innerHTML= X.toPrecision(6);
 }
-function string_method() {  //creating function
+function strings_method() {  //creating function
     var X=256;    // value to var X
 document.getElementById("numbers_to_string").innerHTML= X.toString();
 }
